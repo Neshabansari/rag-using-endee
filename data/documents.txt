@@ -1,0 +1,5 @@
+Java supports multithreading which allows parallel execution of tasks.
+Threads in Java share memory and improve application performance.
+Python is widely used in machine learning and data science.
+Spring Boot simplifies backend development using Java.
+REST APIs are commonly built using Spring Boot.
