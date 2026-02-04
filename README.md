@@ -151,6 +151,29 @@ The application will open automatically in the browser.
 3. Click the Ask button.
 4. The system retrieves relevant documents using Endee and generates an answer.
 
+---
+
+##  Application Screenshots
+
+###  User Interface (Initial Load & Question Input)
+
+![RAG UI](screenshots/ui.png)
+
+This screenshot shows the Streamlit-based user interface of the RAG application.
+Users can enter questions through a clean input field and submit them using the
+**Ask** button.
+
+---
+
+###  Answer Generation using RAG Pipeline
+
+![RAG Answer](screenshots/answer.png)
+
+This screenshot demonstrates the complete Retrieval-Augmented Generation flow.
+Relevant documents are retrieved using **Endee** and passed as context to the
+local LLM, which generates a grounded and accurate response.
+
+
 ### ✅ Key Features
 Uses Endee as the vector database
 
@@ -190,3 +213,4 @@ It showcases:
 ## License
 MIT License
 Copyright (c) 2025 Neshab Alam Ansari
+
