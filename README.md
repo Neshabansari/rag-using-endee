@@ -187,14 +187,14 @@ Uses Endee as the vector database
 
 ```
 rag-using-endee/
-├── app.py                # Streamlit UI
+├── app.py                
 ├── src/
-│   ├── embedding.py      # Embedding generation
-│   ├── endee_store.py    # Endee vector store logic
-│   ├── llm.py            # Local LLM integration
-│   └── main.py           # CLI-based RAG flow
+│   ├── embedding.py      
+│   ├── endee_store.py    
+│   ├── llm.py            
+│   └── main.py           
 ├── data/
-│   └── documents.txt     # Knowledge base
+│   └── documents.txt    
 ├── requirements.txt
 └── README.md
 ```
@@ -213,4 +213,5 @@ It showcases:
 ## License
 MIT License
 Copyright (c) 2025 Neshab Alam Ansari
+
 
